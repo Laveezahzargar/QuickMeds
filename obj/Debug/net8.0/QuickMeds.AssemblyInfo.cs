@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("QuickMeds")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+68c00cabf9d96957f66b93f3d2292052f3035276")]
 [assembly: System.Reflection.AssemblyProductAttribute("QuickMeds")]
 [assembly: System.Reflection.AssemblyTitleAttribute("QuickMeds")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

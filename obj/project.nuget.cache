@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QIawYBhYTgk=",
+  "dgSpecHash": "VuKTaqAY+FU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\bashi\\source\\repos\\GIT_LZ\\QuickMeds\\QuickMeds\\QuickMeds.csproj",
+  "projectFilePath": "C:\\Users\\bashi\\OneDrive\\Desktop\\GIT_LZ\\QuickMeds\\QuickMeds\\QuickMeds.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bashi\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\bashi\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

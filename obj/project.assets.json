@@ -7494,11 +7494,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bashi\\source\\repos\\GIT_LZ\\QuickMeds\\QuickMeds\\QuickMeds.csproj",
+      "projectUniqueName": "C:\\Users\\bashi\\OneDrive\\Desktop\\GIT_LZ\\QuickMeds\\QuickMeds\\QuickMeds.csproj",
       "projectName": "QuickMeds",
-      "projectPath": "C:\\Users\\bashi\\source\\repos\\GIT_LZ\\QuickMeds\\QuickMeds\\QuickMeds.csproj",
+      "projectPath": "C:\\Users\\bashi\\OneDrive\\Desktop\\GIT_LZ\\QuickMeds\\QuickMeds\\QuickMeds.csproj",
       "packagesPath": "C:\\Users\\bashi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bashi\\source\\repos\\GIT_LZ\\QuickMeds\\QuickMeds\\obj\\",
+      "outputPath": "C:\\Users\\bashi\\OneDrive\\Desktop\\GIT_LZ\\QuickMeds\\QuickMeds\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\bashi\\AppData\\Roaming\\NuGet\\NuGet.Config",

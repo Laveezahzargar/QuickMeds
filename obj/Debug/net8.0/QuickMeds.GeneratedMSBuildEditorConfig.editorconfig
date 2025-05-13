@@ -17,111 +17,111 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = QuickMeds
 build_property.RootNamespace = QuickMeds
-build_property.ProjectDir = C:\Users\bashi\source\repos\GIT_LZ\QuickMeds\QuickMeds\
+build_property.ProjectDir = C:\Users\bashi\OneDrive\Desktop\GIT_LZ\QuickMeds\QuickMeds\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\bashi\source\repos\GIT_LZ\QuickMeds\QuickMeds
+build_property.MSBuildProjectDirectory = C:\Users\bashi\OneDrive\Desktop\GIT_LZ\QuickMeds\QuickMeds
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/bashi/source/repos/GIT_LZ/QuickMeds/QuickMeds/Views/Admin/CreateProduct.cshtml]
+[C:/Users/bashi/OneDrive/Desktop/GIT_LZ/QuickMeds/QuickMeds/Views/Admin/CreateProduct.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXRlUHJvZHVjdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bashi/source/repos/GIT_LZ/QuickMeds/QuickMeds/Views/Admin/Index.cshtml]
+[C:/Users/bashi/OneDrive/Desktop/GIT_LZ/QuickMeds/QuickMeds/Views/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bashi/source/repos/GIT_LZ/QuickMeds/QuickMeds/Views/Admin/OrderList.cshtml]
+[C:/Users/bashi/OneDrive/Desktop/GIT_LZ/QuickMeds/QuickMeds/Views/Admin/OrderList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cT3JkZXJMaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bashi/source/repos/GIT_LZ/QuickMeds/QuickMeds/Views/Admin/ProductList.cshtml]
+[C:/Users/bashi/OneDrive/Desktop/GIT_LZ/QuickMeds/QuickMeds/Views/Admin/ProductList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUHJvZHVjdExpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bashi/source/repos/GIT_LZ/QuickMeds/QuickMeds/Views/Admin/UserDb.cshtml]
+[C:/Users/bashi/OneDrive/Desktop/GIT_LZ/QuickMeds/QuickMeds/Views/Admin/UserDb.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXNlckRiLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bashi/source/repos/GIT_LZ/QuickMeds/QuickMeds/Views/Home/About.cshtml]
+[C:/Users/bashi/OneDrive/Desktop/GIT_LZ/QuickMeds/QuickMeds/Views/Home/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bashi/source/repos/GIT_LZ/QuickMeds/QuickMeds/Views/Home/Contact.cshtml]
+[C:/Users/bashi/OneDrive/Desktop/GIT_LZ/QuickMeds/QuickMeds/Views/Home/Contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bashi/source/repos/GIT_LZ/QuickMeds/QuickMeds/Views/Home/Help.cshtml]
+[C:/Users/bashi/OneDrive/Desktop/GIT_LZ/QuickMeds/QuickMeds/Views/Home/Help.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIZWxwLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bashi/source/repos/GIT_LZ/QuickMeds/QuickMeds/Views/Home/Index.cshtml]
+[C:/Users/bashi/OneDrive/Desktop/GIT_LZ/QuickMeds/QuickMeds/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bashi/source/repos/GIT_LZ/QuickMeds/QuickMeds/Views/Home/Privacy.cshtml]
+[C:/Users/bashi/OneDrive/Desktop/GIT_LZ/QuickMeds/QuickMeds/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bashi/source/repos/GIT_LZ/QuickMeds/QuickMeds/Views/Home/TermsAndConditions.cshtml]
+[C:/Users/bashi/OneDrive/Desktop/GIT_LZ/QuickMeds/QuickMeds/Views/Home/TermsAndConditions.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUZXJtc0FuZENvbmRpdGlvbnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bashi/source/repos/GIT_LZ/QuickMeds/QuickMeds/Views/Home/UserIndex.cshtml]
+[C:/Users/bashi/OneDrive/Desktop/GIT_LZ/QuickMeds/QuickMeds/Views/Home/UserIndex.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxVc2VySW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bashi/source/repos/GIT_LZ/QuickMeds/QuickMeds/Views/Order/CheckOut.cshtml]
+[C:/Users/bashi/OneDrive/Desktop/GIT_LZ/QuickMeds/QuickMeds/Views/Order/CheckOut.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQ2hlY2tPdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bashi/source/repos/GIT_LZ/QuickMeds/QuickMeds/Views/Product/Details.cshtml]
+[C:/Users/bashi/OneDrive/Desktop/GIT_LZ/QuickMeds/QuickMeds/Views/Product/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bashi/source/repos/GIT_LZ/QuickMeds/QuickMeds/Views/Product/Index.cshtml]
+[C:/Users/bashi/OneDrive/Desktop/GIT_LZ/QuickMeds/QuickMeds/Views/Product/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bashi/source/repos/GIT_LZ/QuickMeds/QuickMeds/Views/Shared/Error.cshtml]
+[C:/Users/bashi/OneDrive/Desktop/GIT_LZ/QuickMeds/QuickMeds/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bashi/source/repos/GIT_LZ/QuickMeds/QuickMeds/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/bashi/OneDrive/Desktop/GIT_LZ/QuickMeds/QuickMeds/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bashi/source/repos/GIT_LZ/QuickMeds/QuickMeds/Views/User/Account.cshtml]
+[C:/Users/bashi/OneDrive/Desktop/GIT_LZ/QuickMeds/QuickMeds/Views/User/Account.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxBY2NvdW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bashi/source/repos/GIT_LZ/QuickMeds/QuickMeds/Views/User/Cart.cshtml]
+[C:/Users/bashi/OneDrive/Desktop/GIT_LZ/QuickMeds/QuickMeds/Views/User/Cart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxDYXJ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bashi/source/repos/GIT_LZ/QuickMeds/QuickMeds/Views/User/Login.cshtml]
+[C:/Users/bashi/OneDrive/Desktop/GIT_LZ/QuickMeds/QuickMeds/Views/User/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bashi/source/repos/GIT_LZ/QuickMeds/QuickMeds/Views/User/Orders.cshtml]
+[C:/Users/bashi/OneDrive/Desktop/GIT_LZ/QuickMeds/QuickMeds/Views/User/Orders.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxPcmRlcnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bashi/source/repos/GIT_LZ/QuickMeds/QuickMeds/Views/User/Register.cshtml]
+[C:/Users/bashi/OneDrive/Desktop/GIT_LZ/QuickMeds/QuickMeds/Views/User/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bashi/source/repos/GIT_LZ/QuickMeds/QuickMeds/Views/_ViewImports.cshtml]
+[C:/Users/bashi/OneDrive/Desktop/GIT_LZ/QuickMeds/QuickMeds/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bashi/source/repos/GIT_LZ/QuickMeds/QuickMeds/Views/_ViewStart.cshtml]
+[C:/Users/bashi/OneDrive/Desktop/GIT_LZ/QuickMeds/QuickMeds/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bashi/source/repos/GIT_LZ/QuickMeds/QuickMeds/Views/Shared/_Layout.cshtml]
+[C:/Users/bashi/OneDrive/Desktop/GIT_LZ/QuickMeds/QuickMeds/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-tib8u5j37s
