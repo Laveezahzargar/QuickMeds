@@ -17,111 +17,111 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = QuickMeds
 build_property.RootNamespace = QuickMeds
-build_property.ProjectDir = C:\Users\bashi\OneDrive\Desktop\GIT_LZ\QuickMeds\QuickMeds\
+build_property.ProjectDir = /home/irfan_usuf/ILS/git08_Student_Projects/QuickMeds/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\bashi\OneDrive\Desktop\GIT_LZ\QuickMeds\QuickMeds
+build_property.MSBuildProjectDirectory = /home/irfan_usuf/ILS/git08_Student_Projects/QuickMeds
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/bashi/OneDrive/Desktop/GIT_LZ/QuickMeds/QuickMeds/Views/Admin/CreateProduct.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXRlUHJvZHVjdC5jc2h0bWw=
+[/home/irfan_usuf/ILS/git08_Student_Projects/QuickMeds/Views/Admin/CreateProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vQ3JlYXRlUHJvZHVjdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bashi/OneDrive/Desktop/GIT_LZ/QuickMeds/QuickMeds/Views/Admin/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+[/home/irfan_usuf/ILS/git08_Student_Projects/QuickMeds/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bashi/OneDrive/Desktop/GIT_LZ/QuickMeds/QuickMeds/Views/Admin/OrderList.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cT3JkZXJMaXN0LmNzaHRtbA==
+[/home/irfan_usuf/ILS/git08_Student_Projects/QuickMeds/Views/Admin/OrderList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vT3JkZXJMaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bashi/OneDrive/Desktop/GIT_LZ/QuickMeds/QuickMeds/Views/Admin/ProductList.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUHJvZHVjdExpc3QuY3NodG1s
+[/home/irfan_usuf/ILS/git08_Student_Projects/QuickMeds/Views/Admin/ProductList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vUHJvZHVjdExpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bashi/OneDrive/Desktop/GIT_LZ/QuickMeds/QuickMeds/Views/Admin/UserDb.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXNlckRiLmNzaHRtbA==
+[/home/irfan_usuf/ILS/git08_Student_Projects/QuickMeds/Views/Admin/UserDb.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vVXNlckRiLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bashi/OneDrive/Desktop/GIT_LZ/QuickMeds/QuickMeds/Views/Home/About.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
+[/home/irfan_usuf/ILS/git08_Student_Projects/QuickMeds/Views/Home/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9BYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bashi/OneDrive/Desktop/GIT_LZ/QuickMeds/QuickMeds/Views/Home/Contact.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
+[/home/irfan_usuf/ILS/git08_Student_Projects/QuickMeds/Views/Home/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Db250YWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bashi/OneDrive/Desktop/GIT_LZ/QuickMeds/QuickMeds/Views/Home/Help.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIZWxwLmNzaHRtbA==
+[/home/irfan_usuf/ILS/git08_Student_Projects/QuickMeds/Views/Home/Help.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9IZWxwLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bashi/OneDrive/Desktop/GIT_LZ/QuickMeds/QuickMeds/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[/home/irfan_usuf/ILS/git08_Student_Projects/QuickMeds/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bashi/OneDrive/Desktop/GIT_LZ/QuickMeds/QuickMeds/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[/home/irfan_usuf/ILS/git08_Student_Projects/QuickMeds/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bashi/OneDrive/Desktop/GIT_LZ/QuickMeds/QuickMeds/Views/Home/TermsAndConditions.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUZXJtc0FuZENvbmRpdGlvbnMuY3NodG1s
+[/home/irfan_usuf/ILS/git08_Student_Projects/QuickMeds/Views/Home/TermsAndConditions.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9UZXJtc0FuZENvbmRpdGlvbnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bashi/OneDrive/Desktop/GIT_LZ/QuickMeds/QuickMeds/Views/Home/UserIndex.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxVc2VySW5kZXguY3NodG1s
+[/home/irfan_usuf/ILS/git08_Student_Projects/QuickMeds/Views/Home/UserIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Vc2VySW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bashi/OneDrive/Desktop/GIT_LZ/QuickMeds/QuickMeds/Views/Order/CheckOut.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQ2hlY2tPdXQuY3NodG1s
+[/home/irfan_usuf/ILS/git08_Student_Projects/QuickMeds/Views/Order/CheckOut.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvT3JkZXIvQ2hlY2tPdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bashi/OneDrive/Desktop/GIT_LZ/QuickMeds/QuickMeds/Views/Product/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxEZXRhaWxzLmNzaHRtbA==
+[/home/irfan_usuf/ILS/git08_Student_Projects/QuickMeds/Views/Product/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9EZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bashi/OneDrive/Desktop/GIT_LZ/QuickMeds/QuickMeds/Views/Product/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
+[/home/irfan_usuf/ILS/git08_Student_Projects/QuickMeds/Views/Product/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUHJvZHVjdC9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bashi/OneDrive/Desktop/GIT_LZ/QuickMeds/QuickMeds/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+[/home/irfan_usuf/ILS/git08_Student_Projects/QuickMeds/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bashi/OneDrive/Desktop/GIT_LZ/QuickMeds/QuickMeds/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[/home/irfan_usuf/ILS/git08_Student_Projects/QuickMeds/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bashi/OneDrive/Desktop/GIT_LZ/QuickMeds/QuickMeds/Views/User/Account.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxBY2NvdW50LmNzaHRtbA==
+[/home/irfan_usuf/ILS/git08_Student_Projects/QuickMeds/Views/User/Account.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9BY2NvdW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bashi/OneDrive/Desktop/GIT_LZ/QuickMeds/QuickMeds/Views/User/Cart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxDYXJ0LmNzaHRtbA==
+[/home/irfan_usuf/ILS/git08_Student_Projects/QuickMeds/Views/User/Cart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9DYXJ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bashi/OneDrive/Desktop/GIT_LZ/QuickMeds/QuickMeds/Views/User/Login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxMb2dpbi5jc2h0bWw=
+[/home/irfan_usuf/ILS/git08_Student_Projects/QuickMeds/Views/User/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9Mb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bashi/OneDrive/Desktop/GIT_LZ/QuickMeds/QuickMeds/Views/User/Orders.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxPcmRlcnMuY3NodG1s
+[/home/irfan_usuf/ILS/git08_Student_Projects/QuickMeds/Views/User/Orders.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9PcmRlcnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bashi/OneDrive/Desktop/GIT_LZ/QuickMeds/QuickMeds/Views/User/Register.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxSZWdpc3Rlci5jc2h0bWw=
+[/home/irfan_usuf/ILS/git08_Student_Projects/QuickMeds/Views/User/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9SZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bashi/OneDrive/Desktop/GIT_LZ/QuickMeds/QuickMeds/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[/home/irfan_usuf/ILS/git08_Student_Projects/QuickMeds/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bashi/OneDrive/Desktop/GIT_LZ/QuickMeds/QuickMeds/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+[/home/irfan_usuf/ILS/git08_Student_Projects/QuickMeds/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/bashi/OneDrive/Desktop/GIT_LZ/QuickMeds/QuickMeds/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-tib8u5j37s
+[/home/irfan_usuf/ILS/git08_Student_Projects/QuickMeds/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ulxgqujruu

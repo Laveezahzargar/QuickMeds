@@ -23,13 +23,13 @@ public class HomeController : Controller
     {
         try
         {
-            var products = await dbContext.Products.Where(p => p.IsActive).ToListAsync();
+            // var products = await dbContext.Products.Where(p => p.IsActive).ToListAsync();
 
-            var viewModel = new ProductViewModel
-            {
-                Products = products
-            };
-            return View(viewModel);
+            // var viewModel = new ProductViewModel
+            // {
+            //     Products = products
+            // };
+            return View();
         }
         catch (System.Exception ex)
         {
