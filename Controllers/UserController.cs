@@ -163,7 +163,7 @@ namespace QuickMeds.Controllers
 
                     //    Console.WriteLine(token);
 
-                    HttpContext.Response.Cookies.Append("AuthorizationToken", token, new CookieOptions
+                    HttpContext.Response.Cookies.Append("QuikMedsToken", token, new CookieOptions
                     {
                         HttpOnly = true,
                         Secure = false,
@@ -361,7 +361,7 @@ namespace QuickMeds.Controllers
         [HttpGet]
         public ActionResult Logout()
         {
-            HttpContext.Response.Cookies.Delete("AuthorizationToken");
+            HttpContext.Response.Cookies.Delete("QuikMedsToken");
             HttpContext.Session.Clear();
 
             TempData["LogoutMessage"] = "You have been logged out successfully.";

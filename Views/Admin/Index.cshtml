@@ -2,24 +2,53 @@
     ViewBag.Title = "Admin Dashboard";
 }
 
-<div class="container pt-5">
+<div class="container pt-5" style="margin-top: 50px;">
 
-    <h3> Admin Dashboard</h3>
+    <h2 style="margin-left: 15px;"> Admin Dashboard</h2>
 
-    <div class="row">
+    <div class="row-left">
         <div class="col-md-12">
-            <h4>Welcome, Admin</h4>
-            <p>This is your admin dashboard where you can manage the application.</p>
+            <h4>Welcome To QuickMeds Admin Control Panel</h4>
+            <p>This is your admin dashboard where you can manage the application!</p>
+            <p>This centralized hub is designed to streamline your store management experience.<br> Here, you can
+                effortlessly add, edit, or remove products, manage categories, and upload product images<br> to keep
+                your
+                catalog up to date. Monitor and process orders with ease—view order details, update statuses,<br> and
+                generate invoices—all from one place. Additionally, oversee customer accounts, adjust user
+                permissions,<br>
+                and access real-time analytics to inform your business decisions.</p>
+            <p> If you need assistance or have questions, our support team is just a message away.</p>
+
             @if (TempData["SuccessMessage"] != null)
             {
                 <p class="text-success">@TempData["SuccessMessage"]</p>
             }
 
         </div>
+       @* <div class="row-right" >
+            <img src="./img/admin.jpg" alt="">
+        </div>*@
     </div>
+    <style>
+        .row-buttons {
 
 
-    <div class="row">
+
+            .col-md-12 {
+                margin-top: 20px;
+                margin-bottom: 20px;
+                a {
+                    margin-right: 15px;
+                    background-color: #BB0000;
+                    font-size: 18px;
+
+
+
+                }
+            }
+    </style>
+
+    <div class="row-buttons">
         <div class="col-md-12">
 
             <a class="btn btn-primary" asp-controller="admin" asp-action="createProduct"> Create Product </a>
@@ -32,18 +61,18 @@
     </div>
 
 
-    <div class="row mt-5">
+    <div class="row mt-5" style="margin-left: 10px;">
         <div class="col-md-3">
             <h5>Total Users</h5>
             <p>@ViewBag.TotalUsers</p>
         </div>
 
-        <div class="col-md-3">
+        <div class="col-md-3"style="margin-left: 10px;">
             <h5>Total Revenue</h5>
             <p>@ViewBag.TotalRevenue</p>
         </div>
 
-        <div class="col-md-3">
+        <div class="col-md-3"style="margin-left: 10px;">
             <h5>Total Products</h5>
             <p>@ViewBag.TotalProducts</p>
         </div>

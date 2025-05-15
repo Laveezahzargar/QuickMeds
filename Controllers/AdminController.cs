@@ -14,7 +14,6 @@ namespace QuickMeds.Controllers
     {
         private readonly ITokenService tokenService;
         private readonly SqlDbContext dbContext;
-
         private readonly ICloudinaryService cloudinary;
 
         public AdminController(SqlDbContext dbContext, ITokenService tokenService, ICloudinaryService cloudinary)
@@ -54,7 +53,7 @@ namespace QuickMeds.Controllers
         public ActionResult CreateProduct()
         {
             ViewBag.CategoryList = new SelectList(Enum.GetValues(typeof(ProductCategory)));
-            // ViewBag.SizeList = new SelectList(Enum.GetValues(typeof(ProductSize)));
+        
             return View();
         }
 

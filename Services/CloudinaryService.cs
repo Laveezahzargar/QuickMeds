@@ -35,7 +35,7 @@ namespace QuickMeds.Services
                 UseFilename = true,
                 UniqueFilename = false,
                 Overwrite = true,
-                Folder = "Australasia Apparels"
+                Folder = "QuickMeds"
                 // Transformation = new Transformation().Width(150).Height(150).Crop("fill")
             };
 

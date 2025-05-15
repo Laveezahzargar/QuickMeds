@@ -8,7 +8,7 @@ namespace QuickMeds.Middlewares
     {
         public void OnAuthorization(AuthorizationFilterContext context)
         {
-            var token = context.HttpContext.Request.Cookies["AuthorizationToken"];
+            var token = context.HttpContext.Request.Cookies["QuikMedsToken"];
             var tokenService = context.HttpContext.RequestServices.GetService(typeof(ITokenService)) as ITokenService;
             if(string.IsNullOrEmpty(token) || tokenService?.VerifyTokenAndGetId(token)== null)
             {
