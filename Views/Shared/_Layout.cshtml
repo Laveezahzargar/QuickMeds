@@ -38,11 +38,11 @@
                 <ul class="header-links pull-left">
                     <li><a href="#"><i class="fa fa-phone"></i> +021-95-51-84</a></li>
                     <li><a href="#"><i class="fa fa-envelope-o"></i> quickmeds@gmail.com</a></li>
-                    <li><a href="#"><i class="fa fa-map-marker"></i> 1734 Stonecoal Road</a></li>
+                    <li><a href="#"><i class="fa fa-map-marker"></i> 1734 Residency Road</a></li>
                 </ul>
                 <ul class="header-links pull-right">
                     <li><a href="#"><i class="fa fa-dollar"></i> USD</a></li>
-                    <li><a  asp-controller="user" asp-action="account"><i class="fa fa-user-o"></i> My Account</a></li>
+                    <li><a asp-controller="user" asp-action="account"><i class="fa fa-user-o"></i> My Account</a></li>
                 </ul>
             </div>
         </div>
@@ -55,7 +55,7 @@
                 <!-- row -->
                 <div class="row">
                     <!-- LOGO -->
-                    <div class="col-md-3">
+                    * <div class="col-md-3">
                         <div class="header-logo">
                             <a href="#" class="logo">
                                 <img src="./img/logo.png" alt="">
@@ -70,8 +70,21 @@
                             <form>
                                 <select class="input-select">
                                     <option value="0">All Categories</option>
-                                    <option value="1">Category 01</option>
-                                    <option value="1">Category 02</option>
+                                    <option value="1">HairCare</option>
+                                    <option value="2">SkinCare</option>
+                                    @*  <option value="3">OralCare</option>
+                                    <option value="4">BabyCare</option>
+                                    <option value="5">StomachCare</option>
+                                    <option value="6">MenGrooming</option>
+                                    <option value="7">HealthySnacks</option>
+                                    <option value="8">FitnessSupplements</option>
+                                    <option value="9">MonitoringDevices</option>
+                                    <option value="10">Diabetes</option>
+                                    <option value="11">EyeAndEarCare</option>
+                                    <option value="12">Cold,Cough,AndFever</option>
+                                    <option value="13">SkinInfection</option>
+                                    <option value="14">OTCMedicines</option>
+                                    <option value="15">Others</option>*@
                                 </select>
                                 <input class="input" placeholder="Search here">
                                 <button class="search-btn">Search</button>
@@ -95,7 +108,8 @@
 
                             <!-- Cart -->
                             <div class="dropdown">
-                                <a class="dropdown-toggle" asp-controller="user" asp-action="cart" data-toggle="dropdown" aria-expanded="true" >
+                                <a class="dropdown-toggle" asp-controller="user" asp-action="cart"
+                                    data-toggle="dropdown" aria-expanded="true">
                                     <i class="fa fa-shopping-cart"></i>
                                     <span>Your Cart</span>
                                     <div class="qty">3</div>
@@ -130,7 +144,8 @@
                                     </div>
                                     <div class="cart-btns">
                                         <a asp-controller="user" asp-action="cart">View Cart</a>
-                                        <a asp-controller="order" asp-action="checkout">Checkout <i class="fa fa-arrow-circle-right"></i></a>
+                                        <a asp-controller="order" asp-action="checkout">Checkout <i
+                                                class="fa fa-arrow-circle-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -166,13 +181,13 @@
             <div id="responsive-nav">
                 <!-- NAV -->
                 <ul class="main-nav nav navbar-nav">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#">Hot Deals</a></li>
-                    <li><a href="#">Categories</a></li>
-                    <li><a href="#">Laptops</a></li>
-                    <li><a href="#">Smartphones</a></li>
-                    <li><a href="#">Cameras</a></li>
-                    <li><a href="#">Accessories</a></li>
+                    <li class="active"><a asp-controller="home" asp-action="index">Home</a></li>
+                    <li><a href="#">Popular Deals</a></li>
+                    <li><a href="#">Hair Care</a></li>
+                    <li><a href="#">Skin Care</a></li>
+                    <li><a href="#">Oral Care</a></li>
+                    <li><a href="#">Baby Care</a></li>
+                    <li><a href="#">Stomach Care</a></li>
                 </ul>
                 <!-- /NAV -->
             </div>
@@ -186,7 +201,7 @@
 
 
     <div class="container">
-            @RenderBody()
+        @RenderBody()
     </div>
 
 
@@ -202,10 +217,13 @@
                     <div class="col-md-3 col-xs-6">
                         <div class="footer">
                             <h3 class="footer-title">About Us</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                incididunt ut.</p>
+                            <p class="para" style="margin-bottom: 20px;">At QuickMeds , we are more than just a pharmacy — we are your dedicated partners in
+                                health. Nestled in the heart
+                                of Kashmir, our mission is to provide accessible, reliable, and personalized
+                                pharmaceutical care to our
+                                community..</p>
                             <ul class="footer-links">
-                                <li><a href="#"><i class="fa fa-map-marker"></i>1734 Stonecoal Road</a></li>
+                                <li><a href="#"><i class="fa fa-map-marker"></i>1734 Residency Road</a></li>
                                 <li><a href="#"><i class="fa fa-phone"></i>+021-95-51-84</a></li>
                                 <li><a href="#"><i class="fa fa-envelope-o"></i>quickmeds@gmail.com</a></li>
                             </ul>
@@ -216,11 +234,12 @@
                         <div class="footer">
                             <h3 class="footer-title">Categories</h3>
                             <ul class="footer-links">
-                                <li><a href="#">Hot deals</a></li>
-                                <li><a href="#">Laptops</a></li>
-                                <li><a href="#">Smartphones</a></li>
-                                <li><a href="#">Cameras</a></li>
-                                <li><a href="#">Accessories</a></li>
+                                <li><a href="#">Popular deals</a></li>
+                                <li><a href="#">Hair Care</a></li>
+                                <li><a href="#">Skin Care</a></li>
+                                <li><a href="#">Oral Care</a></li>
+                                <li><a href="#">Baby Care</a></li>
+                                <li><a href="#">Stomach Care</a></li>
                             </ul>
                         </div>
                     </div>

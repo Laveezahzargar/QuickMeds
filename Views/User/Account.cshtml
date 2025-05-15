@@ -3,32 +3,66 @@
 }
 
 
-  <style>
+<style>
+  .account_container {
+    justify-content: center;
+
+    min-height: 70vh;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 800px;
 
 
-    .account_container {
+    border: 1px solid black;
 
-      min-height: 90vh;
-      padding: 50px;
+    >h1 {
+      margin-top: 60px;
+      font-size: 44px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
 
     }
-  </style>
+
+    >p {
+      margin-right: 7px;
+      font-size: 18px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+  }
+
+  .btn-btn-primary {
+    
+    border-radius: 5px;
+    font-size: 24px;
+    background-color: #bb0000;
+    color: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+
+
+  }
+</style>
+
 
 
 
 
 <div class="account_container">
 
-<h1>REGISTERED USER</h1>
+  <h1>REGISTERED USER</h1>
 
-<p>Kindly Login To Your Account</p>
-<a asp-controller="user" asp-action="login"><button>Login</button></a>
+  <p>Kindly Login To Your Account</p>
+  <a asp-controller="user" asp-action="login"><button class="btn-btn-primary">Login</button></a>
 
-<h1>NEW USER</h1>
+  <h1>NEW USER</h1>
 
-<p>If New User Kindly Create An Account</p>
-<a asp-controller="user" asp-action="register"><button>Create Account</button></a>
+  <p>If New User Kindly Create An Account</p>
+  <a asp-controller="user" asp-action="register"><button class="btn-btn-primary">Create Account</button></a>
 
 
 </div>
-
