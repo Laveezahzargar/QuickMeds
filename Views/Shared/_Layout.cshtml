@@ -98,7 +98,7 @@
                         <div class="header-ctn">
                             <!-- Wishlist -->
                             <div>
-                                <a href="#">
+                                <a asp-controller="user" asp-action="Wishlist">
                                     <i class="fa fa-heart-o"></i>
                                     <span>Your Wishlist</span>
                                     <div class="qty">2</div>
@@ -265,7 +265,7 @@
                             <ul class="footer-links">
                                 <li><a asp-controller="user" asp-action="account">My Account</a></li>
                                 <li><a asp-controller="user" asp-action="cart">View Cart</a></li>
-                                <li><a href="#">Wishlist</a></li>
+                                <li><a asp-controller="user" asp-action="Wishlist">Wishlist</a></li>
                                 <li><a asp-controller="user" asp-action="order">Track My Order</a></li>
                                 <li><a asp-controller="home" asp-action="help">Help</a></li>
                             </ul>

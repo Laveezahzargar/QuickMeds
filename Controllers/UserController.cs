@@ -86,53 +86,53 @@ namespace QuickMeds.Controllers
         [HttpPost]
         public async Task<ActionResult> Login(LoginView model)
         {
-           /* if (string.IsNullOrEmpty(model.Email))
-            {
-                ViewBag.errorMessage = "Email feild is required!";
-                return View();
-            }
+            /* if (string.IsNullOrEmpty(model.Email))
+             {
+                 ViewBag.errorMessage = "Email feild is required!";
+                 return View();
+             }
 
-            if (string.IsNullOrEmpty(model.Password))
-            {
-                ViewBag.errorMessage = "Password Feild is Required!";
-                return View();
-            }
+             if (string.IsNullOrEmpty(model.Password))
+             {
+                 ViewBag.errorMessage = "Password Feild is Required!";
+                 return View();
+             }
 
 
-            var user = await dbContext.Users.FirstOrDefaultAsync(u => u.Email == model.Email);   // db query 
+             var user = await dbContext.Users.FirstOrDefaultAsync(u => u.Email == model.Email);   // db query 
 
-            if (user == null)
-            {
-                ViewBag.errorMessage = "User Not Found!";
-                return View();
-            }
+             if (user == null)
+             {
+                 ViewBag.errorMessage = "User Not Found!";
+                 return View();
+             }
 
-            var passVerify = BCrypt.Net.BCrypt.Verify(model.Password, user.Password);
+             var passVerify = BCrypt.Net.BCrypt.Verify(model.Password, user.Password);
 
-            if (passVerify)
-            {
+             if (passVerify)
+             {
 
-                var token = tokenService.CreateToken(user.UserId, user.Email, user.Username, 60 * 24);
+                 var token = tokenService.CreateToken(user.UserId, user.Email, user.Username, 60 * 24);
 
-                HttpContext.Response.Cookies.Append(
-                    "QuikMedsToken",
-                    token,
-                    new CookieOptions
-                    {
-                        HttpOnly = true,
-                        Secure = false,
-                        SameSite = SameSiteMode.Lax,
-                        Expires = DateTimeOffset.UtcNow.AddHours(24)
-                    }
-                );
+                 HttpContext.Response.Cookies.Append(
+                     "QuikMedsToken",
+                     token,
+                     new CookieOptions
+                     {
+                         HttpOnly = true,
+                         Secure = false,
+                         SameSite = SameSiteMode.Lax,
+                         Expires = DateTimeOffset.UtcNow.AddHours(24)
+                     }
+                 );
 
-                ViewBag.successMessage = "Logged in succesfully!";
-                return View();
-            }
+                 ViewBag.successMessage = "Logged in succesfully!";
+                 return View();
+             }
 
-            ViewBag.errorMessage = "Password incorrect!";
-            return View();*/
-        
+             ViewBag.errorMessage = "Password incorrect!";
+             return View();*/
+
 
             try
             {
@@ -366,6 +366,51 @@ namespace QuickMeds.Controllers
 
             TempData["LogoutMessage"] = "You have been logged out successfully.";
             return RedirectToAction("Index", "Home");
+        }
+
+
+
+
+       [Authorize]
+        [HttpGet]
+        public async Task<ActionResult> Wishlist()
+        {
+            try
+            {
+
+                Guid? userId = HttpContext.Items["UserId"] as Guid?;
+
+                var cart = await dbContext.Carts.Include(c => c.CartItems).FirstOrDefaultAsync(c => c.UserId == userId); // finding cart of user 
+
+                var viewModel = new CartViewModel();
+
+
+                if (cart == null || cart.CartItems.Count == 0)
+                {
+                    ViewBag.CartEmpty = "Your Wishlist is Empty";    // used in if condition
+                    return View(viewModel);
+                }
+
+                // for efficency there is serperated cart profucts db query
+                var cartItems = await dbContext.CartItems
+                .Include(ci => ci.Product)
+                .Where(ci => ci.CartId == cart.CartId)
+                .ToListAsync();
+
+
+                viewModel.CartItems = cartItems;
+                viewModel.Cart = cart;
+
+
+                return View(viewModel);
+            }
+            catch (System.Exception ex)
+            {
+                ViewBag.ErrorMessage = ex.Message;
+                return View("Error");
+
+            }
+
         }
 
 
