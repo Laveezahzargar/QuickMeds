@@ -14,7 +14,7 @@ builder.Services.AddSingleton<ITokenService, TokenService>();
 builder.Services.AddSingleton<IMailService, EmailService>();
 builder.Services.AddScoped<ICloudinaryService, CloudinaryService>();
 
-builder.Services.AddDbContext<SqlDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("main")));
+builder.Services.AddDbContext<SqlDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("local")));
 
 var app = builder.Build();
 

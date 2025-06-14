@@ -3,6 +3,7 @@ namespace QuickMeds.Types
     public enum ProductCategory
     {
         All,
+        PopularDeals,
         HairCare,
         SkinCare,
         OralCare,

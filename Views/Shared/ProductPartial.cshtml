@@ -1,0 +1,104 @@
+﻿
+
+
+
+<!-- SECTION -->
+<div class="section">
+
+
+    <!-- container -->
+    <div class="container">
+
+
+        <!-- row -->
+        <div class="row">
+
+
+            <!-- section title -->
+            <div class="col-md-12">
+                <div class="section-title">
+                    <h3 class="title">New Products</h3>
+                    <div class="section-nav">
+                        <ul class="section-tab-nav tab-nav">
+                            <li class="active" id="Men_Grooming" ><a data-toggle="tab"  >Men Grooming</a></li>
+
+                            <li><a data-toggle="tab" href="#tab2">Fitness Supplements</a></li>
+
+                            <li><a data-toggle="tab" href="#tab3">Healthy Snacks</a></li>
+
+                            <li><a data-toggle="tab" href="#tab4">First Aid</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- /section title -->
+
+
+
+
+            <!-- Products tab & slick -->
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="products-tabs " style="display: flex;" id="tab">
+                        <!-- tab -->
+                       @* <partial name = "~/Views/Shared/molecules/Tab.cshtml"/>*@
+                        <!-- /tab -->
+                    </div>
+                </div>
+
+
+            </div>
+            <!-- Products tab & slick -->
+
+
+        </div>
+        <!-- /row -->
+
+
+    </div>
+    <!-- /container -->
+
+
+</div>
+<!-- /SECTION -->
+
+
+<script>
+
+
+document.getElementById("Men_Grooming").addEventListener("click" , async()=>{
+
+    console.log("click")
+    const tabContainer = document.getElementById("tab")
+    try {
+
+        const res = await fetch(`/home/LoadTab?category="Men Grooming"`, {
+            method: "GET"
+        })
+
+        const html = await res.text()
+
+
+        if (res.ok) {
+            tabContainer.innerHTML = html
+        }
+        else{
+            tabContainer.innerHTML = '<p> Tab cant be loaded ..... </p>'
+        }
+
+
+
+    } catch (error) {
+        console.error(error)
+    }
+
+})
+
+
+
+  
+
+
+
+
+</script>

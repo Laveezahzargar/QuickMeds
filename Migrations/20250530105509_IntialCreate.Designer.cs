@@ -12,8 +12,8 @@ using QuickMeds.Data;
 namespace QuickMeds.Migrations
 {
     [DbContext(typeof(SqlDbContext))]
-    [Migration("20250513101325_mig1")]
-    partial class mig1
+    [Migration("20250530105509_IntialCreate")]
+    partial class IntialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

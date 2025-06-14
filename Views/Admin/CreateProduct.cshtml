@@ -20,9 +20,9 @@
     <form method="post" enctype="multipart/form-data" style="margin-bottom: 150px ;">
 
         <div class="mb-3 d-flex" style="gap: 10px;">
-            <input type="text" class="form-control" id="ProductName" name="Name" placeholder="Enter Product Name">
+            <input type="text" class="form-control" id="ProductName" name="Name" placeholder="Enter Product Name" required>
 
-            <input type="text" class="form-control" id="Brand" name="Brand" placeholder="Enter Brand Name">
+            <input type="text" class="form-control" id="Brand" name="Brand" placeholder="Enter Brand Name" required>
         </div>
 
         <div class="mb-3">
@@ -55,7 +55,7 @@
             margin-top: 30px; 
             background-color: #BB0000;font-size: 17px;">Create Product</button>
 
-        @*<p class="text-danger pt-3">@ViewBag.ErrorMessage</p>*@
+        <p class="text-danger pt-3">@ViewBag.ErrorMessage</p>
     </form>
 
 

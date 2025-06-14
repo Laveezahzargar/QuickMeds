@@ -6,6 +6,7 @@ using QuickMeds.Middlewares;
 using QuickMeds.Data;
 using QuickMeds.Models;
 using QuickMeds.Models.ViewModels;
+using QuickMeds.Types;
 
 namespace QuickMeds.Controllers;
 
@@ -19,24 +20,46 @@ public class HomeController : Controller
         this.dbContext = dbContext;
     }
 
-    public async Task<IActionResult> Index()
+    public  IActionResult Index()
+    {
+   
+            return View();
+  
+    }
+
+
+    [HttpGet]
+    public async Task<IActionResult> LoadTab()
     {
         try
         {
-             var products = await dbContext.Products.Where(p => p.IsActive).ToListAsync();
+            var products = await dbContext.Products.Where(p => p.IsActive && p.Category == ProductCategory.MenGrooming ).ToListAsync();
 
-             var viewModel = new ProductViewModel
-             {
-                 Products = products
-             };
-            return View();
+            if (products == null)
+            {
+                ViewBag.Message = "No Products in this Category";
+            }
+
+            var viewModel = new ProductViewModel
+            {
+                Products = products
+            };
+
+            return PartialView("~/Views/Shared/molecules/Tab.cshtml", viewModel);
         }
         catch (System.Exception ex)
         {
+
             ViewBag.ErrorMessage = ex.Message;
             return View("Error");
         }
+
+
     }
+
+ 
+
+
     [Authorize]
     [HttpGet]
     public async Task<IActionResult> UserIndex()

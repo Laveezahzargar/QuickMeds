@@ -17,7 +17,7 @@ namespace QuickMeds.Services
                 throw new InvalidOperationException("Cloudinary URL is not configured.");
             }
 
-           /* cloudinary = new Cloudinary(cloudinaryUrl) { Api = { Secure = true } };*/
+            cloudinary = new Cloudinary(cloudinaryUrl) { Api = { Secure = true } };
         }
 
         public async Task<string> UploadImageAsync(IFormFile file)

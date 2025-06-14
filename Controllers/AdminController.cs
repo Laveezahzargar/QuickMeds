@@ -1,3 +1,4 @@
+using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -49,14 +50,27 @@ namespace QuickMeds.Controllers
             return View();
         }
 
+        [Authorize]
         [HttpGet]
-        public ActionResult CreateProduct()
+        public async Task<ActionResult> CreateProduct()
         {
+
+             Guid? userId = HttpContext.Items["UserId"] as Guid?;
+
+            var user = await dbContext.Users.FirstOrDefaultAsync(u => u.UserId == userId);
+
+            if (user?.Role != Role.Admin)
+            {
+                return RedirectToAction("Login", "User");
+            }
             ViewBag.CategoryList = new SelectList(Enum.GetValues(typeof(ProductCategory)));
         
             return View();
         }
 
+
+
+        [Authorize]
         [HttpPost]
         public async Task<ActionResult> CreateProduct(Product product, IFormFile ImageFile)
         {
@@ -65,13 +79,11 @@ namespace QuickMeds.Controllers
             {
                 ViewBag.CategoryList = new SelectList(Enum.GetValues(typeof(ProductCategory)));
 
-
-
-                if (!ModelState.IsValid)
+                /*if (!ModelState.IsValid)
                 {
                     ViewBag.ErrorMessage = "Invalid Product Data";
-                    return View(product);
-                }
+                    return View();
+                }*/
 
                 if (ImageFile != null && ImageFile.Length > 0)
                 {
@@ -92,6 +104,9 @@ namespace QuickMeds.Controllers
 
                 await dbContext.Products.AddAsync(product);
                 await dbContext.SaveChangesAsync();
+
+
+                
                 TempData["SuccessMessage"] = "Product Created Successfully";
                 return RedirectToAction("Index");
 

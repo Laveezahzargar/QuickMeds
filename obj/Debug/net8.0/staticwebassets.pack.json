@@ -85,12 +85,28 @@
       "PackagePath": "staticwebassets\\img\\admin.jpg"
     },
     {
+      "Id": "C:\\Users\\bashi\\OneDrive\\Desktop\\GIT_LZ\\QuickMeds\\QuickMeds\\wwwroot\\img\\baby care.jpg",
+      "PackagePath": "staticwebassets\\img\\baby care.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bashi\\OneDrive\\Desktop\\GIT_LZ\\QuickMeds\\QuickMeds\\wwwroot\\img\\dettol.jpg",
+      "PackagePath": "staticwebassets\\img\\dettol.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bashi\\OneDrive\\Desktop\\GIT_LZ\\QuickMeds\\QuickMeds\\wwwroot\\img\\hairoil.jpg",
+      "PackagePath": "staticwebassets\\img\\hairoil.jpg"
+    },
+    {
       "Id": "C:\\Users\\bashi\\OneDrive\\Desktop\\GIT_LZ\\QuickMeds\\QuickMeds\\wwwroot\\img\\hotdeal.png",
       "PackagePath": "staticwebassets\\img\\hotdeal.png"
     },
     {
       "Id": "C:\\Users\\bashi\\OneDrive\\Desktop\\GIT_LZ\\QuickMeds\\QuickMeds\\wwwroot\\img\\logo.png",
       "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\bashi\\OneDrive\\Desktop\\GIT_LZ\\QuickMeds\\QuickMeds\\wwwroot\\img\\oralcare.webp",
+      "PackagePath": "staticwebassets\\img\\oralcare.webp"
     },
     {
       "Id": "C:\\Users\\bashi\\OneDrive\\Desktop\\GIT_LZ\\QuickMeds\\QuickMeds\\wwwroot\\img\\product01.png",
@@ -129,6 +145,10 @@
       "PackagePath": "staticwebassets\\img\\product09.png"
     },
     {
+      "Id": "C:\\Users\\bashi\\OneDrive\\Desktop\\GIT_LZ\\QuickMeds\\QuickMeds\\wwwroot\\img\\shampoo.jpg",
+      "PackagePath": "staticwebassets\\img\\shampoo.jpg"
+    },
+    {
       "Id": "C:\\Users\\bashi\\OneDrive\\Desktop\\GIT_LZ\\QuickMeds\\QuickMeds\\wwwroot\\img\\shop01.png",
       "PackagePath": "staticwebassets\\img\\shop01.png"
     },
@@ -139,6 +159,18 @@
     {
       "Id": "C:\\Users\\bashi\\OneDrive\\Desktop\\GIT_LZ\\QuickMeds\\QuickMeds\\wwwroot\\img\\shop03.png",
       "PackagePath": "staticwebassets\\img\\shop03.png"
+    },
+    {
+      "Id": "C:\\Users\\bashi\\OneDrive\\Desktop\\GIT_LZ\\QuickMeds\\QuickMeds\\wwwroot\\img\\skincare.jpg",
+      "PackagePath": "staticwebassets\\img\\skincare.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bashi\\OneDrive\\Desktop\\GIT_LZ\\QuickMeds\\QuickMeds\\wwwroot\\img\\snacks.jpg",
+      "PackagePath": "staticwebassets\\img\\snacks.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bashi\\OneDrive\\Desktop\\GIT_LZ\\QuickMeds\\QuickMeds\\wwwroot\\img\\suppliment.webp",
+      "PackagePath": "staticwebassets\\img\\suppliment.webp"
     },
     {
       "Id": "C:\\Users\\bashi\\OneDrive\\Desktop\\GIT_LZ\\QuickMeds\\QuickMeds\\wwwroot\\js\\bootstrap.min.js",

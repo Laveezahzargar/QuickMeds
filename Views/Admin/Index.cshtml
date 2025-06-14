@@ -2,6 +2,16 @@
     ViewBag.Title = "Admin Dashboard";
 }
 
+@* notification bar in future *@
+
+
+@if( @TempData["SuccessMessage"]  != null){
+<div> 
+    <p class="text-success"> @TempData["SuccessMessage"]</p>
+</div>
+}
+
+
 <div class="container pt-5" style="margin-top: 50px;">
 
     <h2 style="margin-left: 15px;"> Admin Dashboard</h2>
